@@ -1,1 +1,2 @@
 # PingSendAsync
+Метод Ping.SendAsync 
