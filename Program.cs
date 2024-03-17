@@ -38,6 +38,7 @@ namespace PingSendAsync
          // Блокирует текущий поток до получения сигнала объектом WaitHandle.
          waiter.WaitOne();
          Console.WriteLine("Проверка связи завершена");
+         Console.ReadKey();
       }
 
       private static void PingCompletedCallback(object sender, PingCompletedEventArgs e)
