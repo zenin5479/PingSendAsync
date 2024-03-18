@@ -7,10 +7,10 @@ namespace PingSendAsync
 {
    public class PingExample
    {
-      public static void Main(string[] args)
+      public static void Main()
       {
          // Требуется хост или IP-адрес
-         string who = "www.google.ru";
+         string who = "www.binance.com";
          // Представляет событие синхронизации потока,
          // которое при получении сигнала освобождает один поток ожидания, и событие сбрасывается автоматически.
          // Если поток не ожидается, следующий поток, которому задано состояние ожидания,
